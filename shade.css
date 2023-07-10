@@ -1,0 +1,1144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+
+html{
+    font-size: 66%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+}
+
+.color{
+    background: radial-gradient(white,aquamarine);
+}
+
+
+.home-back{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 0; top: 0; right: 0;
+    padding: 1rem 7%;
+    z-index: 1000;
+}
+
+
+span{
+    color: darkolivegreen;
+}
+
+.home-back .navbar a{
+    color: black;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: darkkhaki;
+    cursor: pointer;
+  }
+
+
+  .home-back .icons a,
+  .home-back .icons i{
+    cursor: pointer;
+    color: black;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 2.5rem;
+    font-size: 2rem;
+}
+
+
+#menu{
+    display: none;
+}
+
+
+.navbar a:hover{
+    color: black;
+}
+
+
+.home-back header{
+    font-size: 2rem;
+}
+
+
+.home-back header .logo_name {
+    border: .3rem solid black;
+    width: 9rem;
+    padding: 0 0 .5rem .4rem;
+    border-bottom: 0;
+    cursor: pointer;
+}
+
+
+.home-back header .logo_name a{
+    color: black;
+}
+.home-back header p i {
+    font-size: .8rem;
+    font-weight: bold;
+    position: absolute;
+    color:darkolivegreen;
+    line-height: .4rem;
+}
+
+section{
+    padding: 2rem 9%;
+    z-index: 100;
+}
+
+.home .col{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 9rem;
+    gap: 2rem;
+    align-items: justify;
+    text-align: center;
+}
+
+
+.home .col .text{
+    flex: 1 1 45rem;
+}
+
+
+.home .col .text_image{
+    flex: 1 1 45rem;
+    outline: invert;
+}
+
+.img{
+    width: .9rem;
+    height: .6rem;
+    color: darkkhaki;
+}
+
+
+.home .col .text p{
+    font-size: .9rem;
+    position: relative;
+    line-height: 5rem;
+    color: grey;
+}
+
+
+.home .col .text h1{
+    font-size: 5rem;
+
+}
+.home .col .text_image img{
+    width: 100%;
+}
+
+
+.home .text div .btn {
+    width: 15rem;
+    border: .1rem solid darkolivegreen;
+    border-radius: 2rem;
+    background-color: darkolivegreen;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.home .text div .btn:hover{
+    background-color: black;
+    border: .1rem solid black;
+}
+
+
+.home .text div .btn a{
+    color: white;
+}
+
+
+.ex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background: radial-gradient(#fff,#eee);
+    padding: 3rem 9%;
+    
+}
+
+
+.ex .ex-img{
+    flex: 1 1 45rem;
+}
+
+
+.ex .ex-text{
+    flex: 1 1 45rem;
+    margin-top: 80px;
+}
+
+.ex .ex-img img{
+    width: 100%;
+}
+
+
+.ex .ex-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+
+.ex .ex-text h1{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+
+.ex .ex-text div .btn{
+width: 15rem;
+border: .1rem solid darkolivegreen;
+border-radius: 2rem;
+background-color: darkolivegreen;
+padding: 1rem;
+position: relative;
+cursor: pointer;
+}
+
+
+.ex .ex-text div .btn:hover{
+background-color: black;
+border: .1rem solid black;
+}
+
+
+.ex .ex-text div .btn a{
+color: white;
+}
+
+
+.form{
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+    background-color: aquamarine;
+    height: 55rem;
+    text-align: center;
+}
+
+.form h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.form h5{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: darkolivegreen;
+}
+
+
+.form .form-text{
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0px 4px 8px 0px rgb(0,0,0,.2);
+    text-align: center;
+    margin: 1rem auto;
+    border: 1rem;
+    border-radius: .4rem;
+    max-width: 60rem;
+    height: 45rem;
+}
+
+
+.form .form-text p{
+    font-size: 1.5rem;
+    align-items: justify;
+    line-height: 2rem;
+    padding: 1rem;
+}
+
+
+.form .form-text input{
+    border: .2rem solid black;
+    width: 25rem;
+    height: 3rem;
+    margin: 0.5rem auto;
+}
+
+.form .form-text div .btn{
+width: 15rem;
+border: .1rem solid darkolivegreen;
+border-radius: 2rem;
+background-color: darkolivegreen;
+padding: 1rem;
+margin: 0.5rem auto;
+cursor: pointer;
+}
+
+
+.form .form-text div .btn:hover{
+background-color: black;
+border: .1rem solid black;
+}
+
+
+.form .form-text div .btn a{
+    color: white;
+}
+
+
+.footer{
+    background-color: #000;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    gap: 2rem;
+}
+
+
+.footer .box-container .box{
+    padding: .2rem 0;
+    font-size: 2rem;
+    color: white;
+}
+
+
+.footer .box-container .box a{
+    display: block;
+    padding: .2rem 0;
+    font-size: 1rem;
+    color: white;
+}
+
+
+.footer .box-container .box a:hover{
+    color: darkolivegreen;
+    text-decoration: underline;
+}
+
+
+.footer .box-container .box img{
+    width: 10rem;
+    height: 8rem;
+}
+
+
+.footer ,.box-container .box h4{
+    font-size: .6rem;
+    text-align: center;
+}
+.footer .credit{
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    font-size: 2rem;
+    color: white;
+    padding: .5rem;
+    padding-top: 1.5rem;
+}
+
+
+.footer .credit span{
+    color: darkolivegreen;
+}
+
+
+
+
+/*------------------------------------All products--------------------------------------------*/
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col21{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem 7%;
+}
+
+
+.title::after{
+    content: "";
+    background: darkolivegreen;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.fe-product{
+    align-items: center;
+    justify-content: center;
+}
+.fe-product h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2rem;
+    position: relative;
+}
+
+
+.title::after{
+    content: "";
+    background: darkolivegreen;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.f-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-products  .f-pro1{
+    border: 1rem;
+    border-radius: .2rem;
+    background-color: black;
+    box-shadow: 0px 4px 8px 0px rgb(0,0,0,.2);
+    position: relative;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s;
+}
+
+
+.f-products .f-pro1:hover{
+    transform: translateY(-5px);
+}
+
+
+.f-products .f-pro1 img{
+    width: 23rem;
+    height: 20rem;
+    padding: 2rem;
+}
+
+
+.f-products .f-pro1 h2{
+    color: darkolivegreen;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.f-products .f-pro1 .star1{
+    font-size: 1rem;
+    color: white;
+}
+
+
+.f-products .f-pro1 p a{
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem 9%;
+}
+
+
+.pro-op{
+    justify-content: space-between;
+    margin: 90px auto 40px;
+}
+
+
+select{
+    border: 1px solid darkolivegreen;
+    padding: 5px;
+}
+
+
+select:focus{
+    outline: none;
+}
+
+
+.page-btn{
+    margin: 0 auto 80px;
+    padding: 1rem 7%;
+}
+
+
+.page-btn span{
+    display: inline-block;
+    border: .1rem solid darkolivegreen;
+    margin-left:  10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+
+.page-btn span:hover{
+    background: darkolivegreen;
+    color: white;
+}
+
+
+/*-------------------------------------Products Details-------------------------------*/
+.row .col-2 .btn {
+    width: 15rem;
+    border: .1rem solid darkolivegreen;
+    border-radius: 2rem;
+    background-color: darkolivegreen;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.row .col-2 .btn:hover{
+    background-color: black;
+    border: .1rem solid black;
+}
+
+
+.row .col-2 .btn a{
+    color: white;
+}
+
+
+ .row .col-2 input{
+    border: .1rem solid darkolivegreen;
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.row .col-2 input:focus{
+    outline: none;
+}
+
+
+.row{
+    margin-top: 80px;
+}
+
+
+.row .col-2 img{
+    padding: 0;
+}
+
+
+.row .col-2{
+    padding: 20px;
+}
+
+
+.row .col-2 h1{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.row .col-2 h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.row .col-2 h3{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.row .col-2 select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.small-img-col{
+    flex-basis:33.3%;
+    cursor: pointer;
+}
+
+.col-2 p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/*----------------------------------CART--------------------------------------*/
+.section-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+/*.container1{
+    max-width: 1068px;
+    width: 100%;
+    margin: auto;
+}*/
+
+
+.shop{
+    margin-top: 2rem;
+}
+
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+    gap: 1.5rem;
+}
+
+.product-box{
+    position: relative;
+    border: 1rem;
+    border-radius: .2rem;
+    background-color: black;
+    box-shadow: 0px 4px 8px 0px rgb(0,0,0,.2);
+    padding: 1.5rem;
+    transition: transform 0.5s;
+}
+
+.product-img{
+    width: 100%;
+    height: 20rem;
+    padding: 2rem;
+}
+
+.cart{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background: #fff;
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+
+.cart.active{
+    right: 0;
+}
+.cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+.cart-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.detail-box{
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+
+.cart-product-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: darkolivegreen;
+}
+
+
+.cart-price{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cart-quantity{
+    width: 5rem;
+    border: .1rem solid darkolivegreen;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.cart-quantity:focus{
+    outline: darkolivegreen;
+}
+
+
+.cart-remove{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid darkolivegreen;
+}
+
+
+.total-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.total-price{
+    margin-left: 1.5rem;
+}
+
+
+.cart .btn{
+    width: 100%;
+    border: .1rem solid darkolivegreen;
+    border-radius: 0rem;
+    background-color: darkolivegreen;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.cart .btn:hover{
+    background-color: black;
+    border: .1rem solid black;
+}
+
+
+.cart .btn a{
+    color: white;
+}
+
+#close-cart{
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: darkolivegreen;
+    cursor: pointer;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem 7%;
+}
+
+
+.product-box h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2rem;
+    position: relative;
+}
+
+
+.product-box:hover{
+    transform: translateY(-5px);
+}
+
+
+.product-box h2{
+    color: darkolivegreen;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.product-box .star1{
+    font-size: 1rem;
+    color: white;
+}
+
+
+.product-box p a{
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem 9%;
+}
+
+
+.pro-op{
+    justify-content: space-between;
+    margin: 90px auto 40px;
+}
+
+
+select{
+    border: 1px solid darkolivegreen;
+    padding: 5px;
+}
+
+
+select:focus{
+    outline: none;
+}
+
+
+.page-btn{
+    margin: 0 auto 80px;
+    padding: 1rem 7%;
+}
+
+
+.page-btn span{
+    display: inline-block;
+    border: .1rem solid darkolivegreen;
+    margin-left:  10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+
+.page-btn span:hover{
+    background: darkolivegreen;
+    color: white;
+}
+/*--------------------------------Account------------------------------------*/
+
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(white,aquamarine);
+}
+
+
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0px 4px 8px 0px rgb(0,0,0,.2);
+    overflow: hidden;
+}
+
+
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+
+.form-btn{
+    display: inline-block;
+}
+
+
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+
+
+.form-container form a{
+    color: darkolivegreen;
+    font-size: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.row1 .col-21 form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: .1rem solid darkolivegreen;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.row1 .col-21 form .btn {
+    width: 100%;
+    border: .1rem solid darkolivegreen;
+    border-radius: 2rem;
+    background-color: darkolivegreen;
+    padding: 1rem;
+    margin: 10px 0;
+    cursor: pointer;
+    }
+    
+    
+.row1 .col-21 form .btn:hover{
+    background-color: black;
+    border: .1rem solid black;
+    color: #fff;
+    }
+    
+.row1 .col-21 form .btn a{
+        color: white;
+        text-decoration: none;
+    }
+
+
+#Loginform{
+    left: -300px ;
+}
+
+#Registerform{
+    left: 0;
+}
+
+
+
+#Indicator{
+    width: 100px;
+    height: 3px;
+    border: none;
+    background: darkolivegreen;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+
+
+/*--------------------------------------ABOUT-----------------------------------*/
+
+.home .text h2{
+    color: darkkhaki;
+    letter-spacing: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+
+.home .text h3{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+
+.home .text p{
+    color: grey;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.home1 .col1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 5rem;
+    gap: 2rem;
+    align-items: justify;
+    text-align: center;
+}
+
+
+.home1 .col1 .text1{
+    flex: 1 1 45rem;
+}
+
+
+.home1 .col1 .text_image1{
+    flex: 1 1 45rem;
+    outline: invert;
+}
+
+
+
+.home1 .col1 .text1 .btn{
+    width: 15rem;
+    border: .1rem solid darkolivegreen;
+    border-radius: 2rem;
+    background-color: darkolivegreen;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+    margin: 3rem;
+}
+
+
+.home1 .text1 .btn:hover{
+    background-color: black;
+    border: .1rem solid black;
+}
+
+
+.home1 .text1 .btn a{
+    color: white;
+}
+
+
+.home1 .col1 .text_image1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.home1 .col1 .text1 h1{
+    font-size: 5rem;
+
+}
+
+
+.home1 .col1 .text1 h4{
+    font-size: 1.5rem;
+    margin: 1rem;
+    line-height: 2rem;
+}
+
+
+/*--------------------------------CSS FOR MEDIA QUERIES-----------------------------*/
+@media screen and (max-width:800px) {
+    .navbar{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: whitesmoke;
+        width: 100%;
+        overflow: scroll;
+        transition: max-height 0.5s;
+    }
+
+    .navbar a {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px ;
+        margin-bottom: 10px;
+        text-align: right;
+    }
+
+    #menu{
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+
+/*-------------media queries for screen size less than 600px-------------------------*/
+@media screen and (max-width:600px){
+    .row{
+        text-align: center;
+    }
+
+    
+    .row{
+        text-align: left;
+    }
+    
+    .row .col-2{
+        padding: 20px 0;
+    }
+    
+    .row h1{
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
